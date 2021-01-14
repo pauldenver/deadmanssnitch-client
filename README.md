@@ -95,6 +95,7 @@ These are the available options for creating a `DeadMansSnitchClient` instance.
 | `checkInBaseUrl`    | `https://nosnch.in`               | Base URL for the Dead Man's Snitch check-ins                |
 | `fullResponse`      | `false`                           | Get the full response instead of just the body              |
 | `maxContentLength`  | `10000`                           | The max size of the HTTP response content in bytes          |
+| `maxBodyLength`     | `2000`                            | The max allowed size of the HTTP request body in bytes      |
 | `apiVersion`        | `1`                               | The REST API Version to use                                 |
 <br />
 
@@ -213,9 +214,7 @@ async function updateMySnitch(token, snitchInfo) {
 
 ## Change Log
 
-### v1.0.0
-
-- Initial release
+The [CHANGELOG](./CHANGELOG.md) contains descriptions of notable changes.
 
 ## License
 
